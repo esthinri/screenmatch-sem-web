@@ -46,6 +46,13 @@
 			<artifactId>jackson-databind</artifactId>
 			<version>2.18.0</version>
 		</dependency>
+
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.34</version>
+			<scope>provided</scope>
+		</dependency>
 	</dependencies>
 
 	<build>
@@ -56,5 +63,7 @@
 			</plugin>
 		</plugins>
 	</build>
+
+
 
 </project>
